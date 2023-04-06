@@ -1,0 +1,103 @@
+.heading{
+    font-size: 23px;
+    background: rgb(168, 114, 183);
+    width: 100%;
+    height: auto;
+    color: white;
+    margin: 0px;
+    font-size: 28px;
+    box-shadow: 10px 5px 50px blue;
+    box-shadow:5px 5px 5px greenyellow;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes example {
+
+    from {box-shadow: 1px 5px 50px greenyellow;}
+    to {box-shadow: 5px 5px 10px blue;}
+  
+  }
+.heading:hover{
+    color: black;
+    font-size: 35px;
+    background: linear-gradient(50deg, rgba(232,244,248,1) 16%, rgba(115,111,158,1) 48%, rgba(238,132,118,1) 73%);
+
+}
+
+#square_side{
+    color: burlywood;
+}
+
+#square_side:hover{
+    color: white;
+    font-size: 35px;
+
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    background-image: url(https://wallpaperaccess.com/full/3204572.jpg);
+}
+
+.note{
+    font-size: 15px;
+    color: black;
+}
+
+.copy_right_footer{
+    box-shadow: 10px 5px 100px wheat;
+    box-shadow:10px 10px 50px rgb(6, 241, 112);
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: fixed;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    font-size: 20px;
+    text-align: justify;
+    background: rgb(163,98,76);
+   
+}
+
+@keyframes example2 {
+
+    from {box-shadow: 1px 5px 100px wheat;}
+    to {box-shadow: 5px 5px 50px rgb(6, 241, 112);}
+  
+  }
+
+.copy_right_footer:hover{
+    font-size: 28px;
+background: linear-gradient(50deg, rgba(163,98,76,1) 16%, rgba(133,140,61,1) 25%, rgba(67,140,62,1) 37%, rgba(225,239,233,1) 52%, rgba(65,132,187,1) 69%, rgba(186,68,155,1) 82%);
+}
+
+canvas{
+    box-shadow: 10px 5px 50px lavenderblush;
+    box-shadow:5px 5px 5px palevioletred;
+    animation-name: example3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    background: rgb(241,109,64);
+}
+
+
+canvas:hover{
+    background: linear-gradient(24deg, rgba(241,109,64,1) 13%, rgba(213,230,47,1) 33%, rgba(51,242,38,1) 47%, rgba(11,221,131,1) 62%, rgba(238,55,86,1) 86%);
+}
+
+@keyframes example3 {
+
+    from {box-shadow: 1px 5px 100px lavenderblush;}
+    to {box-shadow: 5px 5px 50px palevioletred;}
+  
+  }
